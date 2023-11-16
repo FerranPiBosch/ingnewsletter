@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 900px;
+}
+header{
+    width: 80%;
+    max-width: 900px;
+    margin: auto;
+}
+.logo_header{
+    display: flex;
+    justify-content: space-between;
+    color: rgb(200, 190, 187);
+    font-size: x-large;
+}
+.correo{
+    text-align: center;
+    color: rgb(200, 190, 187);
+    margin-bottom: 10px;
+}
+.logo_header img{
+    width:30%;
+}
+main{
+    width: 80%;
+    margin:0 auto;
+    background-color:rgb(255, 98, 1) ;
+    color: white;
+    text-align: center;
+}
+main img{
+    width:100%;
+}
+h1{
+    padding: 30px;    
+}
+.naranja{
+    color:rgb(255, 98, 1) ;
+    padding: 0;
+    padding-left: 10px;
+
+}
+.taxat{
+    text-decoration-line:line-through;
+}
+.negrita{
+    color: black;
+}
+.boton{
+    width: 50%;
+}
+.fondo_blanco{
+    background-color: white;
+    text-align: left;
+}
+.carta{
+    color: black;
+    text-align: left;
+    padding-left: 10px;
+    padding-top: 30px;
+}
+.fondo_blanco p{
+    color: black;
+}
+.galeria{
+    display: flex;
+    justify-content: space-around;
+    margin: 30px;
+}
+.icono{
+    width:30px ;
+}
+.box_galeria{
+    width: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-right: 1px solid grey;
+}
+.boton_centro{
+    display: flex;
+    justify-content: center;
+}
+.redes_sociales{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.redes_sociales img{
+    width: 40px;
+    margin: 4px;
+}
+footer{
+    width: 80%;
+    margin: 0 auto;
+    background-color:rgb(240, 240, 240) ;
+    font-size: small;
+}
